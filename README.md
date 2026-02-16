@@ -3,7 +3,6 @@ Project Overview
 
 This repository contains a production-ready Infrastructure as Code (IaC) suite developed in Terraform. It automates the deployment of a secure, 3-tier architecture on AWS, specifically designed to host migrated Oracle WebLogic and Apache workloads.
 Technical Features
-
     Networking: Custom VPC with public/private subnet separation and Internet Gateway (IGW) configuration.
 
     Compute: EC2 instance utilizing User Data automation for automated Apache/Middleware installation.
