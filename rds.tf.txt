@@ -1,0 +1,12 @@
+Terraform
+
+resource "aws_db_instance" "default" {
+  allocated_storage    = 20
+  db_name              = "middleware_db"
+  engine               = "mysql"
+  engine_version       = "8.0"
+  instance_class       = "db.t3.micro"
+  username             = "admin"
+  password             = "Password123!" # In real life, use a Secrets Manager!
+  skip_final_snapshot  = true
+}

@@ -1,0 +1,14 @@
+Terraform
+
+variable "aws_region" {
+  default = "us-east-1"
+}
+
+variable "instance_type" {
+  default = "t2.micro"
+}
+
+variable "ami_id" {
+  description = "Amazon Linux 2023 AMI"
+  default     = "ami-0c7217cdde317cfec"
+}
